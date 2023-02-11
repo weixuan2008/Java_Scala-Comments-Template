@@ -1,11 +1,7 @@
-# https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html#tag
+# Java Scala comments template
 
 
-# Javadoc
-
-**20190403 - GuoZhiYong - Javadoc**
-
-## 一、Javadoc标签（JDK1.5）
+## 一、Javadoc标签
 
 - 块标签：`@tag`
     - `@author author-info`：注释作者信息。
