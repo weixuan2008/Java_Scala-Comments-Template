@@ -1,9 +1,9 @@
 # Java Scala comments template
 
 
-## 一、Javadoc tag
+## 1、Javadoc tag
 
-- 块标签：`@tag`
+- block tag：`@tag`
     - `@author author-info`：注释作者信息。
     - `@deprecated`：表示此API已废弃。
     - `@exception exception-class exception-description`：注释异常信息（可能出现的）。
@@ -16,7 +16,7 @@
     - `@since datatime-text|version-text`：注释已存在的时间
     - `@throws exception-class exception-description`：注释异常信息（方法声明的）。
     - `@version version-info`：注释版本信息。
-- 内联标签：`{@tag}`
+- inline tag：`{@tag}`
     - `{@code code-text}`：注释代码文本
     - `{@docRoot}`：表示从任何生成的页面到生成的文档（目标）根目录的相对路径。
     - `{@inheritDoc}`：从最近的可继承类或实现接口复制注释文档到当前注释。
@@ -25,7 +25,7 @@
     - `{@literal text}`：注释文本不需要转义HTML的<>。
     - `{@value package.class#field}`：注释常量值。
 
-## 二、tag order
+## 2、tag order
 
 ```java
 /**
@@ -44,7 +44,7 @@
  */
 ```
 
-## 三、Javadoc template
+## 3、Javadoc template
 
 ### 1. package
 
@@ -113,6 +113,6 @@
  */
 ```
 
-**Reference**
+## 4、Reference
 
 1. [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag)
