@@ -50,14 +50,12 @@
 
 ```java
 /**
- * package simple description.
- *
- * package detailed description.
- *
- * @author（必须）
- * @version（必须）
- * @see（可选）
- * @since（可选）
+ * @description (required)
+ * @author Eddie Wei
+ * @see (optional)
+ * @since (optional)
+ * @CreateTime: ${YEAR}-${MONTH}-${DAY} 
+ * @version (required)
  */
 ```
 
@@ -65,17 +63,12 @@
 
 ```java
 /**
- * type simple description.
- *
- * type detailed description.
- *
- * @author（必须）
- * @version（必须）
- * @param（可选）
- * @see（可选）
- * @since（可选）
- * @serial（可选）
- * @deprecated（可选）
+ * @description (required)
+ * @author Eddie Wei
+ * @see (optional)
+ * @since (optional)
+ * @CreateTime: ${YEAR}-${MONTH}-${DAY} 
+ * @version (required)
  */
 ```
 
@@ -83,14 +76,11 @@
 
 ```java
 /**
- * field simple description.
- *
- * field detailed description.
- *
- * @see（可选）
- * @since（可选）
- * @serialField | @serial（可选）
- * @deprecated（可选）
+ * @description (required)
+ * @see  (optional)
+ * @since  (optional)
+ * @serialField | @serial  (optional)
+ * @deprecated  (optional)
  */
 ```
 
@@ -98,19 +88,17 @@
 
 ```java
 /**
- * method simple description.
- *
- * method detailed description.
- *
- * @author（可选）
- * @param（可选）
- * @return（可选）
- * @throws（可选）
- * @exception（可选）
- * @see（可选）
- * @since（可选）
- * @serialData（可选）
- * @deprecated（可选）
+ * @description (required)
+ * @author  (optional)
+ * @CreateTime: ${YEAR}-${MONTH}-${DAY} 
+ * @param  (optional)
+ * @return  (optional)
+ * @throws  (optional)
+ * @exception  (optional)
+ * @see  (optional)
+ * @since  (optional)
+ * @serialData  (optional)
+ * @deprecated  (optional)
  */
 ```
 
