@@ -1,7 +1,7 @@
 # Java Scala comments template
 
 
-## 一、Javadoc标签
+## 一、Javadoc tag
 
 - 块标签：`@tag`
     - `@author author-info`：注释作者信息。
@@ -25,7 +25,7 @@
     - `{@literal text}`：注释文本不需要转义HTML的<>。
     - `{@value package.class#field}`：注释常量值。
 
-## 二、标签顺序
+## 二、tag order
 
 ```java
 /**
@@ -44,13 +44,15 @@
  */
 ```
 
-## 三、Javadoc模板
+## 三、Javadoc template
 
-### 1. 包
+### 1. package
 
 ```java
 /**
- * @description (required)
+ * packaage simple description.
+ *
+ * package detailed description
  * @author Eddie Wei
  * @see (optional)
  * @since (optional)
@@ -59,11 +61,14 @@
  */
 ```
 
-### 2. 类和接口
+### 2. class and interface
 
 ```java
 /**
- * @description (required)
+ * class/interface simple description.
+ *
+ * class/interface detailed description
+
  * @author Eddie Wei
  * @see (optional)
  * @since (optional)
@@ -72,11 +77,14 @@
  */
 ```
 
-### 3. 字段
+### 3. field
 
 ```java
 /**
- * @description (required)
+ * type simple description.
+ *
+ * type detailed description
+
  * @see  (optional)
  * @since  (optional)
  * @serialField | @serial  (optional)
@@ -84,11 +92,14 @@
  */
 ```
 
-### 4. 方法
+### 4. method
 
 ```java
 /**
- * @description (required)
+ * type simple description.
+ *
+ * type detailed description
+
  * @author  (optional)
  * @CreateTime: ${YEAR}-${MONTH}-${DAY} 
  * @param  (optional)
@@ -102,6 +113,6 @@
  */
 ```
 
-**参考资料**
+**Reference**
 
 1. [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#tag)
